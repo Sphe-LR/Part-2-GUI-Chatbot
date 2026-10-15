@@ -1,0 +1,34 @@
+name: .NET CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Restore dependencies
+      run: dotnet restore CybersecurityChatbotGUI/CybersecurityChatbotGUI.csproj
+
+    - name: Build
+      run: dotnet build CybersecurityChatbotGUI/CybersecurityChatbotGUI.csproj --no-restore --configuration Release
+
+    - name: Check WAV file
+      run: |
+        if (Test-Path "CybersecurityChatbotGUI/Assets/greeting.wav") {
+          Write-Host "✅ WAV file found"
+        } else {
+          Write-Host "⚠️ WAV file not found"
+          exit 1
+        }
