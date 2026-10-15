@@ -6,24 +6,38 @@
 - **Course:** PROG6221 Programming 2A
 - **Year:** 2026
 
+---
+
 ## Project Description
 Part 2 extends the Cybersecurity Awareness Chatbot into a Windows Forms GUI application with memory, sentiment detection, keyword recognition, random responses and natural conversation flow.
 
+---
+
 ## Features
-- 🎙️ Voice greeting (WAV)
-- 🎨 ASCII art banner
-- 👤 Memory: remembers user's name and favourite topic
-- 🔑 Keyword recognition: 7 cybersecurity topics
-- 🎲 Random responses per topic
-- 💬 Conversation flow ("tell me more")
-- ❤️ Sentiment detection (worried/curious/frustrated)
-- 🚪 Exit commands (exit, bye, quit)
-- ✅ Input validation
+- 🎙️ **Voice Greeting** — plays on launch in the background
+- 🎨 **ASCII Art Banner** — cybersecurity identity in the GUI
+- 👤 **Memory** — remembers user's name and favourite topic
+- 🔑 **Keyword Recognition** — 7 cybersecurity topics
+- 🎲 **Random Responses** — different tips each time
+- 💬 **Conversation Flow** — "tell me more" continues the current topic
+- ❤️ **Sentiment Detection** — detects worried / curious / frustrated
+- 🚪 **Exit Commands** — exit, bye, quit
+- ✅ **Input Validation** — handles blank and unknown input gracefully
+
+---
+
+## Supported Cybersecurity Topics
+1. Password safety
+2. Phishing
+3. Scams
+4. Privacy
+5. Malware
+6. Safe browsing
+7. Two-factor authentication
+
+---
 
 ## How to Run
-1. Clone the repo
-2. Open the solution in Visual Studio 2022
-3. Set `CybersecurityChatbotGUI` as the Startup Project
-4. Press **Ctrl + F5**
-
-## Project Structure
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sphe-LR/PROG6221-Part2-GUI-Chatbot.git
