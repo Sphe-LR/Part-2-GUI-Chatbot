@@ -1,4 +1,4 @@
-# PROG6221 Part 2 - Cybersecurity Awareness Chatbot GUI
+# PROG6221 Final POE - Cybersecurity Awareness Chatbot
 
 ## Student Information
 - **Name:** Siphesihle Mirriam Mnisi
@@ -9,38 +9,44 @@
 ---
 
 ## Project Description
-Part 2 extends the Cybersecurity Awareness Chatbot into a Windows Forms GUI application with memory, sentiment detection, keyword recognition, random responses and natural conversation flow.
+This is the final integrated Portfolio of Evidence (POE) submission. It takes the foundational console chatbot from Part 1, transforms it into a fully interactive Windows Forms GUI in Part 2, and integrates a MySQL database, a cybersecurity quiz, NLP simulation, and an activity log in Part 3.
 
 ---
 
-## Features
-- 🎙️ **Voice Greeting** — plays on launch in the background
-- 🎨 **ASCII Art Banner** — cybersecurity identity in the GUI
-- 👤 **Memory** — remembers user's name and favourite topic
-- 🔑 **Keyword Recognition** — 7 cybersecurity topics
-- 🎲 **Random Responses** — different tips each time
-- 💬 **Conversation Flow** — "tell me more" continues the current topic
-- ❤️ **Sentiment Detection** — detects worried / curious / frustrated
-- 🚪 **Exit Commands** — exit, bye, quit
-- ✅ **Input Validation** — handles blank and unknown input gracefully
+## Final Features
+
+### Part 1 & 2 Features (Retained)
+- 🎙️ **Voice Greeting**: Plays on launch using `System.Media`.
+- 🎨 **ASCII Art Banner**: Visual cybersecurity identity.
+- 🧠 **Memory & Sentiment**: Remembers user name, favorite topic, and detects user mood (worried, curious, frustrated).
+- 🔑 **Keyword Recognition**: Responds to cybersecurity topics (passwords, phishing, privacy, etc.).
+
+### Part 3 Features (New)
+- 🗄️ **MySQL Task Assistant**: Add, view, complete, and delete cybersecurity tasks. Tasks persist in a MySQL database.
+- ⏰ **Task Reminders**: Optional date/time reminders for tasks.
+- 🎯 **Cyber Quiz**: A 5-question interactive quiz (Multiple choice and True/False) with immediate feedback and scoring.
+- 🤖 **NLP Simulation**: Recognizes natural language commands in the chat. (e.g., "Remind me to check my privacy", "Start the cyber quiz", "Show my tasks").
+- 📊 **Activity Log**: Tracks recent actions (tasks added, quiz completed, NLP commands used) and displays the most recent 5-10 items.
 
 ---
 
-## Supported Cybersecurity Topics
-1. Password safety
-2. Phishing
-3. Scams
-4. Privacy
-5. Malware
-6. Safe browsing
-7. Two-factor authentication
+## Database Setup Instructions
 
----
+To run this application, you must have MySQL installed on your computer.
 
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Sphe-LR/PROG6221-Part2-GUI-Chatbot.git
+1. Open **MySQL Workbench** and run the following SQL script to create the database and table:
+```sql
+CREATE DATABASE IF NOT EXISTS CyberSecurityBotDB;
+USE CyberSecurityBotDB;
+
+CREATE TABLE IF NOT EXISTS cyber_task (
+    task_id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(150) NOT NULL,
+    description VARCHAR(500) NOT NULL,
+    reminder_date DATETIME NULL,
+    is_completed BOOLEAN NOT NULL DEFAULT FALSE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
 ## Video Presentation
-[Unlisted YouTube Link](https://youtu.be/your-video-link)
+
    
