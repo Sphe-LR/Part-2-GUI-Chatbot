@@ -55,21 +55,21 @@ https://youtu.be/3jZwLZZ_mgw
 ## Evidence Screenshots
 
 ### Final GUI & Chat
-![Final GUI](https://insert_image_1_here/)
+![Final GUI]()
 
 ### Task Assistant (Database Integration)
-![Task Database](PASTE_IMAGE_2_LINK_HERE)
+![Task Database]()
 
 ### Cyber Quiz & Immediate Feedback
-![Cyber Quiz](PASTE_IMAGE_3_LINK_HERE)
-![Quiz Feedback](PASTE_IMAGE_4_LINK_HERE)
+![Cyber Quiz]()
+![Quiz Feedback]()
 
 ### Activity Log
-![Activity Log](PASTE_IMAGE_5_LINK_HERE)
+![Activity Log]()
 
 ### GitHub CI/CD & Releases
-![GitHub Actions](PASTE_IMAGE_6_LINK_HERE)
-![GitHub Releases](PASTE_IMAGE_7_LINK_HERE)
+![GitHub Actions]()
+![GitHub Releases]()
 
 
    
