@@ -53,23 +53,22 @@ https://youtu.be/3jZwLZZ_mgw
 ---
 
 ## Evidence Screenshots
+Final GUI & Chat
+https://github.com/Sphe-LR/Part-2-GUI-Chatbot/blob/main/Screenshot%202026-11-13%20153914.png?raw=true
 
-### Final GUI & Chat
-![Final GUI]()
+Task Assistant (Database Integration)
+https://github.com/Sphe-LR/Part-2-GUI-Chatbot/blob/main/Screenshot%202026-11-13%20153727.png?raw=true
+https://github.com/Sphe-LR/Part-2-GUI-Chatbot/blob/main/Screenshot%202026-11-13%20153415.png?raw=true
 
-### Task Assistant (Database Integration)
-![image alt](https://github.com/Sphe-LR/Part-2-GUI-Chatbot/blob/c60ab583afa63e1d275c38e1cab248bc46f8c006/Screenshot%202026-11-13%20152542.png)
+Cyber Quiz & Immediate Feedback
+https://github.com/Sphe-LR/Part-2-GUI-Chatbot/blob/main/Screenshot%202026-11-13%20153227.png?raw=true     
+https://github.com/Sphe-LR/Part-2-GUI-Chatbot/blob/main/Screenshot%202026-11-13%20152819.png?raw=true
 
-### Cyber Quiz & Immediate Feedback
-![Cyber Quiz]()
-![Quiz Feedback]()
+Activity Log
+https://github.com/Sphe-LR/Part-2-GUI-Chatbot/blob/main/Screenshot%202026-11-13%20152753.png?raw=true
 
-### Activity Log
-![Activity Log]()
-
-### GitHub CI/CD & Releases
-![GitHub Actions]()
-![image alt](https://github.com/Sphe-LR/Part-2-GUI-Chatbot/blob/main/Screenshot%202026-11-13%20153914.png?raw=true)
+GitHub CI/CD & Releases
+https://github.com/Sphe-LR/Part-2-GUI-Chatbot/blob/main/Screenshot%202026-11-13%20152655.png?raw=true
 
 
-   
+
