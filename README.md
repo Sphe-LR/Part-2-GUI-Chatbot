@@ -69,7 +69,7 @@ https://youtu.be/3jZwLZZ_mgw
 
 ### GitHub CI/CD & Releases
 ![GitHub Actions]()
-![GitHub Releases](https://github.com/Sphe-LR/Part-2-GUI-Chatbot/blob/main/Screenshot%202026-11-13%20153914.png?raw=true)
+![image alt](https://github.com/Sphe-LR/Part-2-GUI-Chatbot/blob/main/Screenshot%202026-11-13%20153914.png?raw=true)
 
 
    
