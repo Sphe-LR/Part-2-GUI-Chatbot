@@ -55,7 +55,7 @@ https://youtu.be/3jZwLZZ_mgw
 ## Evidence Screenshots
 
 ### Final GUI & Chat
-![Final GUI](PASTE_IMAGE_1_LINK_HERE)
+![Final GUI](https://insert_image_1_here/)
 
 ### Task Assistant (Database Integration)
 ![Task Database](PASTE_IMAGE_2_LINK_HERE)
