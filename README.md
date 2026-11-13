@@ -50,7 +50,26 @@ CREATE TABLE IF NOT EXISTS cyber_task (
 ## Video Presentation
 https://youtu.be/3jZwLZZ_mgw
 
-SCREENSHOTS EVIDENCE 
+---
+
+## Evidence Screenshots
+
+### Final GUI & Chat
+![Final GUI](PASTE_IMAGE_1_LINK_HERE)
+
+### Task Assistant (Database Integration)
+![Task Database](PASTE_IMAGE_2_LINK_HERE)
+
+### Cyber Quiz & Immediate Feedback
+![Cyber Quiz](PASTE_IMAGE_3_LINK_HERE)
+![Quiz Feedback](PASTE_IMAGE_4_LINK_HERE)
+
+### Activity Log
+![Activity Log](PASTE_IMAGE_5_LINK_HERE)
+
+### GitHub CI/CD & Releases
+![GitHub Actions](PASTE_IMAGE_6_LINK_HERE)
+![GitHub Releases](PASTE_IMAGE_7_LINK_HERE)
 
 
    
