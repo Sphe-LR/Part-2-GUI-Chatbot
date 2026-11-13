@@ -58,7 +58,7 @@ https://youtu.be/3jZwLZZ_mgw
 ![Final GUI]()
 
 ### Task Assistant (Database Integration)
-![Task Database](https://github.com/Sphe-LR/Part-2-GUI-Chatbot/blob/c60ab583afa63e1d275c38e1cab248bc46f8c006/Screenshot%202026-11-13%20152542.png)
+![image alt](https://github.com/Sphe-LR/Part-2-GUI-Chatbot/blob/c60ab583afa63e1d275c38e1cab248bc46f8c006/Screenshot%202026-11-13%20152542.png)
 
 ### Cyber Quiz & Immediate Feedback
 ![Cyber Quiz]()
